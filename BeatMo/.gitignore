@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+.lrc_cache/
+build/
+*.bin
+*.elf
+*.map

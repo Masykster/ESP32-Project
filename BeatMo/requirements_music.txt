@@ -1,0 +1,7 @@
+pyserial>=3.5
+numpy>=1.26
+pyaudiowpatch>=0.2.12
+sounddevice>=0.4.6
+winrt-Windows.Media.Control>=3.0
+requests>=2.31
+rich>=13.0
