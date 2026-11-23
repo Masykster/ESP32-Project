@@ -1,0 +1,5 @@
+pyserial>=3.5
+requests>=2.31.0
+winrt-runtime>=3.0.0
+winrt-Windows.Foundation>=3.0.0
+winrt-Windows.Media.Control>=3.0.0

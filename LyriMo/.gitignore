@@ -1,0 +1,6 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+pc_bridge/__pycache__/
+pc_bridge/.pytest_cache/
+pc_bridge/.lrc_cache/

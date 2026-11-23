@@ -1,7 +1,7 @@
 """Music & Lyric Emotion Bridge for BeatMo (ESP32 + SSD1306).
 
 Combines:
-1. Windows SMTC + synced lyrics from ESP32_OLED_U8g2/pc_bridge/lyric_bridge.py (read-only import)
+1. Windows SMTC + synced lyrics from LyriMo/pc_bridge/lyric_bridge.py (read-only import)
 2. Real-time audio FFT analysis (WASAPI loopback via pyaudiowpatch, or Stereo Mix / Mic via sounddevice)
 3. Hybrid 3-layer mood classification (active lyric sentiment + track title/artist + audio energy/beat)
 
@@ -64,8 +64,11 @@ EMO_NAMES = (
     "confused", "shy", "dizzy", "suspicious", "scared",
 )
 
-DEFAULT_LYRIC_BRIDGE = Path(
-    r"C:\Users\HP\Documents\Arduino\ESP32_OLED_U8g2\pc_bridge\lyric_bridge.py"
+DEFAULT_LYRIC_BRIDGE = (
+    Path(__file__).resolve().parent.parent
+    / "LyriMo"
+    / "pc_bridge"
+    / "lyric_bridge.py"
 )
 
 
